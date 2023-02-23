@@ -1,0 +1,320 @@
+*{
+    font-family: 'Labrada', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background: rgb(44, 44, 44);
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.navbar-brand{
+    position: relative;
+    right: 280px;
+}
+.navbar-collapse{
+    position: relative;
+    left: 280px;
+}
+.navbar-brand .one{
+    color: rgb(255, 255, 255);
+}
+.main-header{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background: url(./images/mona.png) no-repeat center center/cover;
+}
+.main-header::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.main-header a{
+    font-size: 1.4rem;
+}
+.main-header b{
+    font-size: 1.4rem;
+}
+.header-top{
+    position: relative;
+    height: 90px;
+    z-index:2;
+}
+.header-top a{
+    font-size:1rem;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 99rem;
+}
+.header-content{
+    position: relative;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+    font-family: 'Gloock', serif;
+    z-index: 2;
+}
+.header-content h1{
+    color:white;
+    font-family: 'Gloock', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 0 2rem 2rem;
+    padding: 0px 60px;
+}
+.header-content p{
+    color:white;
+    font-family: 'Noto Serif', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 1.25rem;
+    font-family: 'Gloock', serif;
+    margin: 1rem 10rem;
+    padding: 10px 100px;
+}
+.header-content .impact{
+    padding: 40px 20px;
+}
+.header-content a{
+    margin-top: 2rem;
+}
+.header-content a{
+    font-size: .8rem;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    position: relative;
+    bottom: 200px;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: black;
+}
+.w-100{
+    height: 100vh;
+}
+
+.abouttt{
+    width:100%;
+    height:95vh;
+    position:relative;
+    background: url(./images/yelan.jpg)
+}
+.abouttt::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.about-all h1{
+    position: relative;
+    color: white;
+    top: 100px;
+    left: 820px;
+    z-index: 3;
+}
+.about-all p{
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    top: 200px;
+    z-index: 3;
+    justify-content: center;
+    text-align: center;
+}
+
+/* button */
+.btn{
+    border: 10px;
+    background: rgba(255, 255, 255, 0.658);
+}
+.btn:hover{
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    background: rgba(15, 0, 0, 0.514);
+}
+.btn-monds{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.103);
+    border-radius: 20px;
+}
+.btn-liyue{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.103);
+    border-radius: 20px;
+}
+.btn-inazuma{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.103);
+    border-radius: 20px;
+}
+.btn-sumeru{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.103);
+    border-radius: 20px;
+}
+.btn-monds:hover{
+    transform: scale(1.1);
+    border: none;
+    color: rgb(0, 255, 64);
+    box-shadow: 0 0 10px #51ff00c0;
+}
+.btn-liyue:hover{
+    transform: scale(1.1);
+    border: none;
+    color: rgb(200, 255, 0);
+    box-shadow: 0 0 10px #d9ff00c0;
+}
+.btn-inazuma:hover{
+    transform: scale(1.1);
+    border: none;
+    color: rgb(204, 0, 255);
+    box-shadow: 0 0 10px #d400ffc0;
+}
+.btn-sumeru:hover{
+    transform: scale(1.1);
+    border: none;
+    color: rgb(51, 255, 0);
+    box-shadow: 0 0 10px #51ff00c0;
+}
+
+
+/* responsive */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    html{
+        overflow-x: hidden;
+    }
+    .header-content h1{
+        font-size: 20px;
+    }
+    .header-content p{
+        font-size: 80px;
+    }
+    .navbar-brand{
+        position: relative;
+        right: 0px;
+    }
+    .navbar-collapse{
+        position: relative;
+        left: 0px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 250px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+        bottom: 100px;
+        left: 0px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+        position: relative;
+        bottom: 50px;
+    }
+    .btn{
+        font-size: .9rem;
+    }
+    .abouttt{
+        background-position-x: center;
+        height: 100vh;
+    }
+    .about-all h1{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+        text-align: center;
+    }
+    .about-all p{
+        font-size: 10px;
+        position: absolute;
+        left: 0px;
+        margin: 0px, 50px, 10px, 20px;
+        padding: 10px, 20px;
+    }
+}
